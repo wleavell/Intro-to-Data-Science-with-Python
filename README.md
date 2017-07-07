@@ -4,7 +4,7 @@ In this [Houston Data Science][1] meetup we will introduce our members to data s
 ## Objectives
 
 * Install Python 3 and set up on your computer via the Anaconda distribution
-* Install Git installed locally and have a Github account created
+* Install Git locally and create a Github account
 * Develop Python programs in a text editor, IDE and Jupyter Notebook
 * Use the command line to execute a program and run Python interactively
 * Use Jupyter Notebook to explore the most popular data science libraries
@@ -16,10 +16,10 @@ In this [Houston Data Science][1] meetup we will introduce our members to data s
 * Install Git locally
 * Fork and clone this respository
 * Install Python 3 with Anaconda
+* Run Python interactively
 * Install Sublime Text 3 along with packages for enhancing development
 * Install PyCharm EDU
 * Execute basic programs from command line
-* Use the command line to run Python interactively
 * PyData
 * NumPy
 * pandas
@@ -69,7 +69,6 @@ Let's go through this process now.
 > 1. Towards the top of the page click the `New pull request` button.
 > 1. Now I will get a notification that you are wanting to modify a file of mine. I can review the revisions and accept/reject your pull request.
 
-
 # Installing Python 3 with Anaconda 
 Anaconda is by far the most popular distribution of the Python programming language for data scientists. Anaconda packages together all the popular data science libraries along with the package manager `conda`. 
 
@@ -77,8 +76,11 @@ Anaconda is not a necessity. Python may be installed independently from source f
 
 > Visit the [Anaconda downloads page][6] and install Anaconda with Python 3.6 for your operating system. Use the graphical installer. Anaconda comes packaged with a graphical user interface for beginning projects as well as the popular IDE Spyder.
 
+# Run Python Interactively
+Now that we have Anaconda installed we can begin to use Python.
+
 # Installing Sublime Text 3
-Now that we have Anaconda installed we can begin to use Python. There are many ways to run and write Python. Python can be written in any text editor, even the basic ones that come preinstalled with all operating systems. Sublime Text 3 is an enhanced text editor that is highly customizable to help make programming in Python easier.
+There are many ways to run and write Python. Python can be written in any text editor, even the basic ones that come preinstalled with all operating systems. Sublime Text 3 is an enhanced text editor that is highly customizable to help make programming in Python easier.
 
 > [Download and install Sublime Text 3][8] and open it.
 
