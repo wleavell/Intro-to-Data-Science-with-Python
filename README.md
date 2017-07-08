@@ -27,7 +27,6 @@ In this [Houston Data Science][1] meetup we will introduce our members to data s
 * seaborn
 * connect to sqlite
 
-
 ## Create Github Account
 The page is currently being hosted on Github, a site that hosts remote Git repositories. Github is a popular place to share and collaborate on software projects. The most popular data science libraries are all hosted on Github. On Github, you can find the latest developments, track bugs and join the conversation with fellow developers.  
 
@@ -57,7 +56,6 @@ Let's go through this process now.
 > 1. On your local machine, create a new folder somewhere in your file system. Title it something like `Github Repos` 
 > 1. Open up a terminal (Windows users open the program Git Bash)
 > 1. `cd` into the new directory you created abovegg
-
 > 1. Run the command `git clone https://github.com/tdpetrou/Intro-to-Data-Science-with-Python.git` but replace this URL with the one you copied from step 2.
 > 1. You now have a replica of the repository on your local machine and are ready to make changes
 > 1. Staying in the terminal run the command `cd Intro-to-Data-Science-with-Python`
@@ -110,7 +108,7 @@ Now that you have the package manager, you may begin to install packages. We wil
 > 1. Type in 'Anaconda'. It should be the first option damnwidget.github.io/anaconda
 
 # Opening our first Python program
-Open up the program `guess_number.py` in Sublime. This is a small game that attempts to guess your number within 5 steps. Before we play or analyze the game, take a look at the bottom right hand corner of Sublime. You should see some text that reads `Tab Size: 4`. There is nothing inherrently wrong with this except that Python's style guide PEP 8 suggests using 4 spaces over tabs. To change the default settings do the following:
+Open up the program `guess_number.py` in Sublime. This is a small game that attempts to guess your number within a few step. Before we play or analyze the game, take a look at the bottom right hand corner of Sublime. You should see some text that reads `Tab Size: 4`. There is nothing inherrently wrong with this except that Python's style guide PEP 8 suggests using 4 spaces over tabs. To change the default settings do the following:
 
 > 1. While in `guess_number.py` click on `Sublime Text -> Preferences -> Settings - Syntax Specific`
 > 1. This will open up a file titled `Python.sublime_settings`. 
@@ -238,6 +236,8 @@ Anaconda ships with its own IDE called Spyder which is similar to R-Studio the m
 ## Minimal text editors
 Some developers like to keep their hands on the keyboard at all times and prefer minimal text editors like VIM or Emacs. [Visit this page][22] to see a longer list of editors for Python.
 
+## Jupyter Notebook
+We h
 use jupyter notebook in pycharm: https://www.jetbrains.com/help/pycharm/using-ipython-jupyter-notebook-with-pycharm.html
 
 
