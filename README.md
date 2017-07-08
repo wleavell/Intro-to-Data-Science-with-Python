@@ -19,13 +19,12 @@ In this [Houston Data Science][1] meetup we will introduce our members to data s
 * Install Sublime Text 3 along with packages for enhancing development
 * Install PyCharm EDU
 * Execute basic programs from command line
-* PyData
 * NumPy
 * pandas
 * statsmodels
 * matplotlib
 * seaborn
-* connect to sqlite
+* scikit-learn
 
 ## Create Github Account
 The page is currently being hosted on Github, a site that hosts remote Git repositories. Github is a popular place to share and collaborate on software projects. The most popular data science libraries are all hosted on Github. On Github, you can find the latest developments, track bugs and join the conversation with fellow developers.  
