@@ -56,7 +56,7 @@
 ## Environment Setup
 
 ### Text Editors/IDEs
-+ [Sublime Text](https://www.sublimetext.com/3)
++ [Sublime Text](https://www.sublimetext.com/3) - [full documentation](http://docs.sublimetext.info/en/latest/)
 + [Atom](https://atom.io/)
 + [Notepad++](https://notepad-plus-plus.org/)
 + [Jupyter](http://jupyter.org/)
@@ -98,11 +98,11 @@
 + [sentdex](https://www.youtube.com/user/sentdex)
 + [Python Conferences](http://pyvideo.org/)
 
-###Other References
+### Other References
 + [Beginners guide reference](https://wiki.python.org/moin/BeginnersGuide)
 + [Full Stack Python](http://www.fullstackpython.com/)
 
-###Online Coding Practice
+### Online Coding Practice
 + [codewars](https://www.codewars.com)
 + [coderbyte](https://www.coderbyte.com/)
 + [learnpython.org](http://www.learnpython.org/)
