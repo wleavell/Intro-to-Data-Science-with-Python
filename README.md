@@ -27,6 +27,7 @@ In this [Houston Data Science][1] meetup we will introduce our members to data s
 * seaborn
 * connect to sqlite
 
+
 ## Create Github Account
 The page is currently being hosted on Github, a site that hosts remote Git repositories. Github is a popular place to share and collaborate on software projects. The most popular data science libraries are all hosted on Github. On Github, you can find the latest developments, track bugs and join the conversation with fellow developers.  
 
@@ -108,8 +109,6 @@ Now that you have the package manager, you may begin to install packages. We wil
 > 1. A new text box will open up with a huge list of available packages
 > 1. Type in 'Anaconda'. It should be the first option damnwidget.github.io/anaconda
 
-[Watch this video][11] to get more in-depth tutorial on Sublime packages for Python.
-
 # Opening our first Python program
 Open up the program `guess_number.py` in Sublime. This is a small game that attempts to guess your number within 5 steps. Before we play or analyze the game, take a look at the bottom right hand corner of Sublime. You should see some text that reads `Tab Size: 4`. There is nothing inherrently wrong with this except that Python's style guide PEP 8 suggests using 4 spaces over tabs. To change the default settings do the following:
 
@@ -169,15 +168,75 @@ Remember how I mentioned above that `guess_number.py` does not run well by using
 > 1. Go to the `guess_number.py` file
 > 1. Go to Tools -> SublimeREPL -> Python - Run Current File 
 > 1. This exacat option is also available via the command palette.
+> 1. Play the game in the REPL
+
+You may also use the REPL to run code interactively. 
+> 1. Start SublimeREPL and run some lines of code
+
+### Sublime resources
+
++ [Watch this video][11] to get more in-depth tutorial on Sublime packages for Python.
++ Sublime has a [very detailed documentation][15] page where you can learn everything about it.
++ There is also a package called Sublime Tutor you can install and learn through practice.
+
+## IPython
+IPython is an enhanced command line REPL with much more functionality than the default one shipped with Python. IPython stands for interactive Python and has grown extremely popular in recent years.
+
+Let's see some of the extra features it provides
+
+> 1. Launch IPython by opening up a terminal and running the command `ipython`
+> 1. Enter `?` and press enter. This will give you a quick overview of IPython
+> 1. For a more complete reference of its capabilities run `%quickref`
 
 
+Get help with any object by placing a question mark after it.
+```
+   import pandas as pd
+   pd?
+```
 
-Sublime has a [very detailed documentation][15] page where you can learn everything about it.
+Get nice tab completion with `pd.<press tab>`
 
-pycharm
-https://www.jetbrains.com/pycharm-edu/
-file -> new project -> educational
-choose python 3 interpreter
+Run shell comands with `!` like `!ls`
+
+### IPython magic commands
+IPython comes equipped with a few dozen [magic commands][18] that conveniently do things that are not so easy using native Python interactively. Take for instance the `%timeit` magic which is the one I most often use. Let's time the difference between adding a one to each element in a list vs adding one to each element of a NumPy array.
+
+```python
+In [1]: n = 10000000
+In [2]: some_list = list(range(n))
+In [3]: import numpy as np
+In [4]: some_array = np.arange(n)
+In [5]: %timeit [x+1 for x in some_list]
+809 ms ± 19.1 ms per loop (mean ± std. dev. of 7 runs, 1 loop each)
+In [6]: %timeit some_array + 1
+27.9 ms ± 720 µs per loop (mean ± std. dev. of 7 runs, 10 loops each)
+```
+
+### IPython resources
++ [IPython documentation][16]
++ [IPython cookbook][17]
+
+## PyCharm
+PyCharm is an excellent [IDE][19] (integrated development environment) made specifically for Python. It provides lots of graphical tools to help developers produce code.
+There is a free community edition a paid enterprise edition and an education edition with lots of exercises to get you started using it. 
+
+Let's download and install PyCharm Edu
+> 1. Visit [PyCharm Edu][20] and download and install.
+> 1. A new project title **Introduction to Python** should start up.
+> 1. If it does not navigate to file -> new project -> educational
+> 1. Before beginning on the 50 exercises you will want to ensure that PyCharm is using a Python 3 interpretter
+> 1. Go to Preferences -> Project -> Project Interpreter and choose the Python 3 interpreter than comes with Anaconda
+> 1. Complete the exercises by reading the task description and editing the code.
+> 1. Press the run button to execute the code and then mark the code as complete.
+
+PyCharm offers a lot more and is excellent for large and complex projects. Watch [this series of YouTube][21] videos to learn more.
+
+## Spyder and Rodeo
+Anaconda ships with its own IDE called Spyder which is similar to R-Studio the main development environment for R users. Rodeo is a product from Yhat that has gained lots of momentum recently and is similar to Spyder.
+
+## Minimal text editors
+Some developers like to keep their hands on the keyboard at all times and prefer minimal text editors like VIM or Emacs. [Visit this page][22] to see a longer list of editors for Python.
 
 use jupyter notebook in pycharm: https://www.jetbrains.com/help/pycharm/using-ipython-jupyter-notebook-with-pycharm.html
 
@@ -199,3 +258,10 @@ Typical workflows for data scientists
 [13]: https://en.wikipedia.org/wiki/Comparison_of_text_editors
 [14]: https://matplotlib.org/examples/animation/rain.html
 [15]: http://docs.sublimetext.info/en/latest/
+[16]: http://ipython.readthedocs.io/en/stable/
+[17]: https://github.com/ipython/ipython/wiki?path=Cookbook
+[18]: http://ipython.readthedocs.io/en/stable/interactive/tutorial.html#magic-functions
+[19]: https://en.wikipedia.org/wiki/Integrated_development_environment
+[20]: https://www.jetbrains.com/pycharm-edu/
+[21]: https://www.youtube.com/watch?v=BPC-bGdBSM8&list=PLQ176FUIyIUZ1mwB-uImQE-gmkwzjNLjP
+[22]: https://wiki.python.org/moin/PythonEditors
