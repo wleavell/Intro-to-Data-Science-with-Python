@@ -186,7 +186,6 @@ Let's see some of the extra features it provides
 > 1. Enter `?` and press enter. This will give you a quick overview of IPython
 > 1. For a more complete reference of its capabilities run `%quickref`
 
-
 Get help with any object by placing a question mark after it.
 ```
    import pandas as pd
@@ -242,7 +241,7 @@ We have finally arrived at my personal favorite environment for doing data scien
 The rest of this tutorial will take place in Jupyter Notebooks.
 
 > 1. Open a terminal and run `jupyter notebook`
-> 1. Open up the first notebook `0
+> 1. Open up the first notebook `0 Jupyter Intro`
 
 [1]: (https://www.meetup.com/Houston-Data-Science/) 
 [2]: (https://www.python.org/downloads/)
