@@ -237,11 +237,12 @@ Anaconda ships with its own IDE called Spyder which is similar to R-Studio the m
 Some developers like to keep their hands on the keyboard at all times and prefer minimal text editors like VIM or Emacs. [Visit this page][22] to see a longer list of editors for Python.
 
 ## Jupyter Notebook
-We h
-use jupyter notebook in pycharm: https://www.jetbrains.com/help/pycharm/using-ipython-jupyter-notebook-with-pycharm.html
+We have finally arrived at my personal favorite environment for doing data science. Jupyter Notebooks provide a web-based interface to a number of different programming languages. The project was originally titled "iPython notebook" and was specifically built for just iPython as a backend. It turned out that notebooks are a very popular way to develop. To accomodate other languages that project was retitled Jupyter for the languages **JU**lia, **PY**thon and **R**. The Jupyter project now works with over 50 different language "kernels" of which IPython is just one.
 
+The rest of this tutorial will take place in Jupyter Notebooks.
 
-Typical workflows for data scientists
+> 1. Open a terminal and run `jupyter notebook`
+> 1. Open up the first notebook `0
 
 [1]: (https://www.meetup.com/Houston-Data-Science/) 
 [2]: (https://www.python.org/downloads/)
